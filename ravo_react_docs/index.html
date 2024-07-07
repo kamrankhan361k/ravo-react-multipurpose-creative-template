@@ -1,0 +1,843 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">
+  <link href="assets/images/TC.png" rel="icon" />
+  <title>Documentation | Ravo - React</title>
+  <meta name="description" content="Ravo - React Creative & Modern MultiPurpose Template">
+  <meta name="author" content="themescamp">
+
+  <!-- Stylesheet
+============================== -->
+  <!-- Bootstrap -->
+  <link rel="stylesheet" type="text/css" href="assets/vendor/bootstrap/css/bootstrap.min.css" />
+  <!-- Font Awesome Icon -->
+  <link rel="stylesheet" type="text/css" href="assets/vendor/font-awesome/css/all.min.css" />
+  <!-- Magnific Popup -->
+  <link rel="stylesheet" type="text/css" href="assets/vendor/magnific-popup/magnific-popup.min.css" />
+  <!-- Highlight Syntax -->
+  <link rel="stylesheet" type="text/css" href="assets/vendor/highlight.js/styles/night-owl.css" />
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" type="text/css" href="assets/css/stylesheet.css" />
+</head>
+
+<body data-spy="scroll" data-target=".idocs-navigation" data-offset="125">
+
+  <!-- Preloader -->
+  <div class="preloader">
+    <img src="assets/images/logo-dark.png" alt="Ravo Logo" />
+    <div class="lds-ellipsis">
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </div>
+  <!-- Preloader End -->
+
+  <!-- Document Wrapper   
+  =============================== -->
+  <div id="main-wrapper">
+
+    <!-- Header
+    ============================ -->
+    <header id="header" class="sticky-top">
+      <!-- Navbar -->
+      <nav class="primary-menu navbar navbar-expand-lg navbar-dropdown-dark">
+        <div class="container-fluid">
+          <!-- Sidebar Toggler -->
+          <button id="sidebarCollapse" class="navbar-toggler d-block d-md-none" type="button"><span></span><span class="w-75"></span><span class="w-50"></span></button>
+
+          <!-- Logo -->
+          <a class="logo ml-md-3" href="index.html" title="Ravo Template"> <img src="assets/images/logo-dark.png" alt="Ravo Logo" style="width:75px" /> </a>
+          <span class="text-2 ml-2 badge badge-success">new</span>
+          <!-- Logo End -->
+
+          <!-- Navbar Toggler -->
+          <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#header-nav"><span></span><span></span><span></span></button>
+
+          <div id="header-nav" class="collapse navbar-collapse justify-content-end">
+            <ul class="navbar-nav">
+              <li><a target="_blank"
+                  href="https://themescamp.ticksy.com">Support</a></li>
+            </ul>
+          </div>
+          <ul class="social-icons social-icons-sm ml-lg-2 mr-2">
+            <li class="social-icons-twitter"><a data-toggle="tooltip" href="https://twitter.com/ThemesCamp" target="_blank" title="" data-original-title="Twitter"><i class="fab fa-twitter"></i></a></li>
+            <li class="social-icons-linkedin"><a data-toggle="tooltip" href="https://www.linkedin.com/company/smart-innovates/" target="_blank" title="" data-original-title="Linkedin"><i class="fab fa-linkedin-in"></i></a></li>
+            <li class="social-icons-behance"><a data-toggle="tooltip" href="https://www.behance.net/themestudi6128" target="_blank" title="" data-original-title="Behance"><i class="fab fa-behance"></i></a></li>
+          </ul>
+        </div>
+      </nav>
+      <!-- Navbar End -->
+    </header>
+    <!-- Header End -->
+
+    <!-- Content
+    ============================ -->
+    <div id="content" role="main">
+
+      <!-- Sidebar Navigation
+	    ============================ -->
+      <div class="idocs-navigation bg-light">
+        <ul class="nav flex-column ">
+          <li class="nav-item"><a class="nav-link active" href="#ravo_start">Getting Started</a>
+            <ul class="nav flex-column">
+              <li class="nav-item"><a class="nav-link" href="#ravo_features">Features</a></li>
+              <li class="nav-item"><a class="nav-link" href="#ravo_files_include">Files Include</a></li>
+              <li class="nav-item"><a class="nav-link" href="#ravo_installation">Installation</a></li>
+              <li class="nav-item"><a class="nav-link" href="#ravo_deployment">Deployment</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="#ravo_folder">Folder Structure</a>
+            <ul class="nav flex-column">
+              <li class="nav-item"><a class="nav-link" href="#ravo_folder_root">Root Folder</a></li>
+              <li class="nav-item"><a class="nav-link" href="#ravo_folder_src">Src Folder</a></li>
+              <li class="nav-item"><a class="nav-link" href="#ravo_folder_layouts">Layouts</a></li>
+              <li class="nav-item"><a class="nav-link" href="#ravo_folder_pages">Pages</a></li>
+              <li class="nav-item"><a class="nav-link" href="#ravo_folder_components">Components</a></li>
+              <li class="nav-item"><a class="nav-link" href="#ravo_folder_data">Data</a></li>
+              <li class="nav-item"><a class="nav-link" href="#ravo_folder_common">Common</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="#ravo_code">Code Structure</a>
+            <ul class="nav flex-column">
+              <li class="nav-item"><a class="nav-link" href="#ravo_code_app">App</a></li>
+              <li class="nav-item"><a class="nav-link" href="#ravo_code_layout">Layout</a></li>
+              <li class="nav-item"><a class="nav-link" href="#ravo_code_page">Page</a></li>
+              <li class="nav-item"><a class="nav-link" href="#ravo_code_component">Component</a></li>
+              <li class="nav-item"><a class="nav-link" href="#ravo_code_data">Data</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="#ravo_source_credits">Source & Credits</a></li>
+          <li class="nav-item"><a class="nav-link" href="#ravo_thanks">Thanks</a></li>
+        </ul>
+      </div>
+
+      <!-- Docs Content
+	    ============================ -->
+      <div class="idocs-content">
+        <div class="container">
+
+          <!-- Getting Started
+		      ============================ -->
+          <section id="ravo_start">
+            <h1>Documentation</h1>
+            <h2>Ravo - React Creative & Modern Multi Purpose template</h2>
+            <p class="lead">Ravo is a React.js Creative & Modern Multi Purpose Template is a perfect template for creative agencies and business startup. Multiple templates are included in this template with lots of CSS and React animations, a perfect template for business startups, web studio, and digital agencies. All files has been well organized and nicely commented for easy to customize.</p>
+            <hr>
+            <div class="row">
+              <div class="col-sm-6 col-lg-4">
+                <ul class="list-unstyled">
+                  <li><strong>Version:</strong> 1.1</li>
+                  <li><strong>Author:</strong> <a href="https://themeforest.net/user/themescamp" target="_blank">ThemesCamp</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-sm-6 col-lg-4">
+                <ul class="list-unstyled">
+                  <li><strong class="font-weight-700">Created:</strong> 30 May, 2022</li>
+                  <li><strong>Update:</strong> 13 June, 2022</li>
+                </ul>
+              </div>
+            </div>
+            <p class="alert alert-info">If you have any questions that are beyond the scope of this help file, Please
+              feel free to contact us via <a target="_blank" href="https://themeforest.net/user/themescamp">ThemesCamp</a>.</p>
+          </section>
+
+          <hr class="divider">
+
+          <!-- Template Features
+          ============================ -->
+          <section id="ravo_features">
+            <h2 class="title">Features</h2>
+
+            <ul class="features">
+              <li>Build on React.js (No jQuery)</li>
+              <li>Build on Next.js</li>
+              <li>Based on Bootstrap 5</li>
+              <li>10+ Stunning Hompages</li>
+              <li>50+ Huge Template Collection</li>
+              <li>70+ Inner Pages</li>
+              <li>SEO Friendly</li>
+              <li>Mega Menu</li>
+              <li>Parallax Effect</li>
+              <li>Working Contact Form</li>
+              <li>Fully Responsive</li>
+              <li>Modern Design</li>
+              <li>24/7 Support</li>
+              <li>Free Updates</li>
+              <li>W3C Validated Code</li>
+            </ul>
+          </section>
+
+          <hr class="divider">
+
+          <!-- Files Include
+          ============================ -->
+          <section id="ravo_files_include">
+            <h2 class="title">Files Include</h2>
+
+            <div class="row">
+              <div class="col-sm-6 col-lg-4">
+                <h3><strong>ravo_react</strong> Folder</h3>
+                <img src="./assets/images/screens/ravo_react_folder.png">
+                <p class="font-weight-100">Folder contains main template code & all <code>jsx</code>, <code>json</code>, <code>scss</code>, <code>css</code>, <code>images</code>, <code>fonts</code>, <code>js</code> files</p>
+              </div>
+              <div class="col-sm-6 col-lg-4">
+                <h3><strong>ravo-react-docs</strong> Folder</h3>
+                <img src="./assets/images/screens/ravo_react_docs_folder.png">
+                <p class="font-weight-100">Documentation folder of "ravo react" written in <code>html</code> <code>css</code></p>
+              </div>
+            </div>
+          </section>
+
+          <hr class="divider">
+
+          <!-- Installation
+          ============================ -->
+          <section id="ravo_installation">
+            <h2 class="title">Installation</h2>
+            <p class="lead">Follow the steps below to setup your template:</p>
+
+            <ol>
+              <li>
+                Download the latest theme source code from the <a href="https://themeforest.net/item/ravo-multipurpose-html5-template/37947640" target="_blank">Marketplace</a>.
+
+                <a href="./assets/images/screens/installation-1.png" class="popup-img"><img src="./assets/images/screens/installation-1.png" class="screen-image"></a>
+              </li>
+              <li>
+                Download and install Node.js and npm from <a href="https://nodejs.org/en/download" target="_blank">Nodejs</a>. The suggested version to install is <code>LTS</code></a>.
+                
+                <a href="./assets/images/screens/installation-2.png" class="popup-img"><img src="./assets/images/screens/installation-2.png" class="screen-image"></a>
+              </li>
+              <li>
+                Open terminal in <strong>ravo_react</strong> template folder.
+
+                <pre>
+                  <code class="bash">> cd /ravo_react/</code>
+                </pre>
+              </li>
+              <li>
+                Install npm packages.
+
+                <span class="info">You must have to install packages of your project to install all the necessary dependencies, You can do this by running the following command.</span>
+                <pre>
+                  <code class="bash">> npm install</code>
+                </pre>
+              </li>
+            </ol>
+
+            <h3>Run <b>Development</b> Server</h3>
+            <p class="lead">Start your app development server to change, update and customize your app.</p>
+            
+            <p>Run <code>npm run dev</code> in the terminal from the root of your project to start a dev server</p>
+
+            <pre>
+              <code class="bash">> npm run dev</code>
+            </pre>
+
+            <p class="info-bg">Navigate to <u>http://localhost:3000</u> to see your app, the app will automatically reload if you change any of the source files.</p>
+            
+
+            <h3>Build For <b>Production</b></h3>
+            <p class="lead">Build the app for production and make it ready for deployment</p>
+
+            <p>Run <code>npm run build</code> to build the project for production.</p>
+
+            <pre>
+              <code class="bash">> npm run build</code>
+            </pre>
+
+            <p class="info-bg">The build artifacts will be stored in the <code>/.next/</code> directory.</p>
+            
+            <p class="info-bg">Run <code>npm start</code> to run the production build of the project locally.</p>
+          </section>
+
+          <hr class="divider">
+
+          <!-- Deployment
+          ============================ -->
+          <section id="ravo_deployment">
+            <h2 class="title">Deployment</h2>
+            <p class="lead">
+              <span>
+                You can deploy your project to any hosting provider that supports Node.js
+                <br>
+                We suggest some hosting you can consider to use:
+              </span>
+            </p>
+            
+            <ul>
+              <li><h5>Deploy to <b><a href="https://www.heroku.com" target="_blank">Heroku</a></b></h5></li>
+              <li><h5>Deploy to <b><a href="https://nextjs.org/docs/deployment" target="_blank">Vercel</a></b></h5></li>
+              <li><h5>Deploy to <b><a href="https://www.netlify.com/blog/2020/11/30/how-to-deploy-next.js-sites-to-netlify/" target="_blank">Netlify</a></b></h5></li>
+              <li><h5>Deploy to <b><a href="https://aws.amazon.com/blogs/mobile/host-a-next-js-ssr-app-with-real-time-data-on-aws-amplify" target="_blank">Amazon Web Service</a></b></h5></li>
+              <li><h5>And more...</h5></li>
+            </ul>
+          </section>
+
+          <hr class="divider">
+
+
+          <!-- Folder Structure
+          ============================ -->
+          <section id="ravo_folder">
+            <h2 class="title">Folder Structure</h2>
+            <p>Ravo comes with a flexible file structure that can be easily used for small to large scope projects. This section will explain the entire file structure and how to adapt it to your project.</p>
+          </section>
+
+          <!-- Root Folder
+          ============================ -->
+          <section id="ravo_folder_root">
+            <h3><i class="fas fa-folder mr-2"></i> Root Folder</h3>
+            <p><code>[root_folder]</code> folder contains the whole project folders & files</p>
+            
+            <a href="./assets/images/screens/ravo_root_folder.png" class="popup-img"><img src="./assets/images/screens/ravo_root_folder.png" style="max-width:100%"></a>
+
+            <p class="mt-4">Root Folder Content: </p>
+            <table class="folder_structure">
+              <thead>
+                <tr>
+                  <th>File/Folder</th>
+                  <th>Description</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><code><i class="fas fa-folder"></i> public</code></td>
+                  <td>Next.js public folder that can serve static files which files inside it can then be referenced by your code starting from the base URL <code>"/"</code>, like images, fonts and vendors.</td>
+                </tr>
+                <tr>
+                  <td><code><i class="fas fa-folder"></i> src</code></td>
+                  <td>The source folder that contains all template source files like Pages, Components, Data, SCSS, Javascript and media files. Required only for development and can be excluded for production.</td>
+                </tr>
+                <tr>
+                  <td><code><i class="fas fa-folder"></i> node_modules</code></td>
+                  <td>A directory created by npm and a way of tracking each packages you install locally via package.json</td>
+                </tr>
+                <tr>
+                  <td><code><i class="fas fa-folder"></i> .next</code></td>
+                  <td>A directory created by next.js during build time to be the destination folder that contains the compiled html and assets.</td>
+                </tr>
+                <tr>
+                  <td><code><i class="fas fa-file-code"></i> .eslintrc</code></td>
+                  <td>Config file format for ESLint</td>
+                </tr>
+                <tr>
+                  <td><code><i class="fas fa-file-code"></i> next.config.js</code></td>
+                  <td>A regular Node.js module, not a JSON file. It gets used by the Next.js server for custom advanced configuration of Next.js and build phases, and it's not included in the browser build</td>
+                </tr>
+                <tr>
+                  <td><code><i class="fas fa-file-code"></i> package.json</code></td>
+                  <td>Includes the list of dependencies to install from npm</td>
+                </tr>
+              </tbody>
+            </table>
+          </section>
+
+          <!-- Src Folder
+          ============================ -->
+          <section id="ravo_folder_src">
+            <h3><i class="fas fa-folder mr-2"></i> Src Folder</h3>
+            <p><code>[root_folder]/src/</code> source folder that contains all template source files.</p>
+            
+            <a href="./assets/images/screens/ravo_src_folder.png" class="popup-img"><img src="./assets/images/screens/ravo_src_folder.png" style="max-width:100%"></a>
+          </section>
+
+          <!-- Layouts Folder
+          ============================ -->
+          <section id="ravo_folder_layouts">
+            <h3><i class="fas fa-folder mr-2"></i> Layouts Folder</h3>
+            <p><code>[root_folder]/src/layouts</code> folder contains all template layouts.</p>
+
+            <a href="./assets/images/screens/ravo_layouts_folder.png" class="popup-img"><img src="./assets/images/screens/ravo_layouts_folder.png" style="max-width:100%"></a>
+
+            <table class="folder_structure">
+              <thead>
+                <tr>
+                  <th>File</th>
+                  <th>Description</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><code><i class="fas fa-file-code"></i> preview.jsx</code></td>
+                  <td>React component represents the <strong><u>Preview</u></strong> layout for main <u>Landing Preview</u> page</td>
+                </tr>
+                <tr>
+                  <td><code><i class="fas fa-file-code"></i> main-light.jsx</code></td>
+                  <td>React component represents the <strong><u>Main</u></strong> layout for most of the project pages</td>
+                </tr>
+                <tr>
+                  <td><code><i class="fas fa-file-code"></i> app-layout.jsx</code></td>
+                  <td>React component represents the <strong><u>App</u></strong> layout, such as layout for <u>restaurant</u>, <u>freelancer</u>, <u>mobile app</u> or <u>architecture</u> pages</td>
+                </tr>
+              </tbody>
+            </table>
+          </section>
+
+          <!-- Pages Folder
+          ============================ -->
+          <section id="ravo_folder_pages">
+            <h3><i class="fas fa-folder mr-2"></i> Pages Folder</h3>
+            <p><code>[root_folder]/src/pages</code> folder contains template pages files.</p>
+
+            <a href="./assets/images/screens/ravo_pages_folder.png" class="popup-img"><img src="./assets/images/screens/ravo_pages_folder.png" style="max-width:100%"></a>
+
+            <p>Folders content: </p>
+            <ul class="folder_content_list">
+              <li><code><i class="fas fa-folder"></i> /home-main</code></li>
+              <li style="margin-left:40px"><code><i class="fas fa-file-code"></i> index.jsx</code></li>
+              <li><code><i class="fas fa-folder"></i> /home-landing-2</code></li>
+              <li style="margin-left:40px"><code><i class="fas fa-file-code"></i> index.jsx</code></li>
+              <li><code><i class="fas fa-folder"></i> /home-nft-market</code></li>
+              <li style="margin-left:40px"><code><i class="fas fa-file-code"></i> index.jsx</code></li>
+              <li><code><i class="fas fa-folder"></i> /about-business</code></li>
+              <li style="margin-left:40px"><code><i class="fas fa-file-code"></i> index.jsx</code></li>
+              <li><code>...</code></li>
+            </ul>
+
+            <p class="info-bg">
+              Each file is a react component exported from a .js, .jsx file in the pages directory is associated with a route based on its containing folder name.
+            </p>
+          </section>
+
+          <!-- Components Folder
+          ============================ -->
+          <section id="ravo_folder_components">
+            <h3><i class="fas fa-folder mr-2"></i> Components Folder</h3>
+            <p><code>[root_folder]/src/components</code> folder contains template components that imported and used in pages.</p>
+
+            <a href="./assets/images/screens/ravo_components_folder.png" class="popup-img"><img src="./assets/images/screens/ravo_components_folder.png" style="max-width:100%"></a>
+
+            <p class="info-bg">
+              Components folders are grouped together according to the pages with same style.
+              <br>
+              e.g. <code>Architecture</code> Folder contains all the components of architecture pages
+            </p>
+            <ul class="folder_content_list">
+              <li><code><i class="fas fa-folder"></i> /Architecture</code></li>
+              <li style="margin-left:30px"><code><i class="fas fa-folder"></i> /Header</code></li>
+              <li style="margin-left:60px"><code><i class="fas fa-file-code"></i> index.jsx</code> <code class="comment">//= Architecture Header Component </code></li>
+              <li style="margin-left:30px"><code><i class="fas fa-folder"></i> /Services</code></li>
+              <li style="margin-left:60px"><code><i class="fas fa-file-code"></i> index.jsx</code> <code class="comment">//= Architecture Services Component </code></li>
+              <li style="margin-left:30px"><code>...</code></li>
+              <li><code><i class="fas fa-folder"></i> /Creative</code></li>
+              <li style="margin-left:30px"><code><i class="fas fa-folder"></i> /Header</code></li>
+              <li style="margin-left:60px"><code><i class="fas fa-file-code"></i> index.jsx</code> <code class="comment">//= Creative Header Component </code></li>
+              <li style="margin-left:30px"><code><i class="fas fa-folder"></i> /Services</code></li>
+              <li style="margin-left:60px"><code><i class="fas fa-file-code"></i> index.jsx</code> <code class="comment">//= Creative Services Component </code></li>
+              <li style="margin-left:30px"><code>...</code></li>
+              <li><code>...</code></li>
+            </ul>
+            <p class="info-bg">Each folder contains a react components that is imported and rendered in some pages component.</p>
+          </section>
+
+          <!-- Data Folder
+          ============================ -->
+          <section id="ravo_folder_data">
+            <h3><i class="fas fa-folder mr-2"></i> Data Folder</h3>
+            <p><code>[root_folder]/src/data</code> folder contains static app data in <code>json</code> format.</p>
+
+            <a href="./assets/images/screens/ravo_data_folder.png" class="popup-img"><img src="./assets/images/screens/ravo_data_folder.png" style="max-width:100%"></a>
+
+            <p class="info-bg">Each folder contains a page components data stored in <code>JSON</code> format.</p>
+            <ul class="folder_content_list">
+              <li><code><i class="fas fa-folder"></i> /architecture</code></li>
+              <li style="margin-left:30px"><code><i class="fas fa-file-code"></i> header.json</code> <code class="comment">//= Architecture Header Component Data </code></li>
+              <li style="margin-left:30px"><code><i class="fas fa-file-code"></i> services.json</code> <code class="comment">//= Architecture Services Component Data </code></li>
+              <li style="margin-left:30px"><code>...</code></li>
+              <li><code><i class="fas fa-folder"></i> /creative</code></li>
+              <li style="margin-left:30px"><code><i class="fas fa-file-code"></i> header.json</code> <code class="comment">//= Creative Header Component Data </code></li>
+              <li style="margin-left:30px"><code><i class="fas fa-file-code"></i> services.json</code> <code class="comment">//= Creative Services Component Data </code></li>
+              <li style="margin-left:30px"><code>...</code></li>
+              <li><code>...</code></li>
+            </ul>
+            <p class="info-bg">Each file contains <code>JSON</code> data that imported and rendered on it's component.</p>
+          </section>
+
+          <!-- Common Folder
+          ============================ -->
+          <section id="ravo_folder_common">
+            <h3><i class="fas fa-folder mr-2"></i> Common Folder</h3>
+            <p><code>[root_folder]/src/common</code> folder contains common helper functions.</p>
+            
+            <a href="./assets/images/screens/ravo_common_folder.png" class="popup-img"><img src="./assets/images/screens/ravo_common_folder.png" style="max-width:100%"></a>
+
+            <p class="info-bg">Each file is <code>JavaScript</code> function that is commonly used in project components.</p>
+          </section>
+
+          <hr class="divider">
+
+
+
+          <!-- Code Structure
+          ============================ -->
+          <section id="ravo_code">
+            <h2 class="title">Code Structure</h2>
+            <p>Main template components code structure</p>
+          </section>
+
+          <!-- App File
+          ============================ -->
+          <section id="ravo_code_app">
+            <h3><i class="fas fa-file-code mr-2"></i> App</h3>
+            <p><code>[root_folder]/src/pages/_app.js</code> Next.js uses the App component to initialize pages which is the main application file.</p>
+
+            <pre>
+<code class="language-jsx">// ./src/page/_app.js
+
+//= Import React & Next Components
+import React from "react";
+import Head from "next/head";
+import Script from "next/script";
+
+//= Import Global Components
+import ProgressScroll from "../components/Progress-Scroll";
+
+//= Import Global CSS/SCSS
+import "../styles/globals.css";
+
+// App Component
+function MyApp({ Component, pageProps }) {
+  return (
+    &lt;&gt;
+      &lt;Head&gt;
+        &lt;title&gt;Ravo&lt;/title&gt;
+        &lt;meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" /&gt;
+      &lt;/Head&gt;
+
+      &lt;!-- Rendered Pages Component --&gt;
+      &lt;Component {...pageProps} /&gt;
+      &lt;ProgressScroll /&gt;
+
+      &lt;!-- Scripts --&gt;
+      &lt;Script strategy="beforeInteractive" src="/js/bootstrap.bundle.min.js"&gt;&lt;/Script&gt;
+      &lt;Script strategy="beforeInteractive" src="/js/wow.min.js"&gt;&lt;/Script&gt;
+      &lt;Script strategy="beforeInteractive" src="/js/splitting.min.js"&gt;&lt;/Script&gt;
+      &lt;Script strategy="beforeInteractive"src="/js/simpleParallax.min.js"&gt;&lt;/Script&gt;
+      &lt;Script strategy="beforeInteractive" src="/js/isotope.pkgd.min.js"&gt;&lt;/Script&gt;
+      &lt;Script strategy="lazyOnload" src="/js/main.js"&gt;&lt;/Script&gt;
+    &lt;/&gt;
+  );
+}
+
+export default MyApp;</code>
+              </pre>
+          </section>
+
+          <!-- Layout File
+          ============================ -->
+          <section id="ravo_code_layout">
+            <h3><i class="fas fa-file-code mr-2"></i> Layout</h3>
+            <p><code>[root_folder]/src/layouts/[layout].jsx</code> React component that contains app layout.</p>
+
+            <pre>
+<code class="language-jsx">// ./src/layouts/preview.jsx
+import { useEffect, useRef } from "react";
+import Head from "next/head";
+import Script from "next/script";
+//= Components
+import Navbar from "../components/Navbars/MainNavbar";
+
+// Layout Component
+const PreviewLayout = ({ children }) =&gt; {
+  const navbarRef = useRef(null);
+
+  useEffect(() =&gt; {
+    var navbar = navbarRef.current;
+    
+    if (window.pageYOffset &gt; 300) navbar.classList.add("nav-scroll");
+    else navbar.classList.remove("nav-scroll");
+
+    window.addEventListener("scroll", () =&gt; {
+      if (window.pageYOffset &gt; 300) navbar.classList.add("nav-scroll");
+      else navbar.classList.remove("nav-scroll");
+    });
+  }, [navbarRef]);
+
+  return (
+    &lt;&gt;
+      &lt;Head&gt;
+        &lt;!-- Layout CSS Files --&gt;
+        &lt;link rel="stylesheet" href="/css/plugins.css" /&gt;
+        &lt;link rel="stylesheet" href="/css/style.css" /&gt;
+        &lt;link rel="stylesheet" href="/landing-preview/css/preview-style.css" /&gt;
+      &lt;/Head&gt;
+
+      &lt;!-- Layout Navbar --&gt;
+      &lt;Navbar navbarRef={navbarRef} /&gt;
+      &lt;!-- Layout Wrapped Content --&gt;
+      { children }
+      
+      &lt;!-- Layout Scripts --&gt;
+      &lt;Script&gt; strategy="beforeInteractive" src="/landing-preview/js/parallax.min.js"&gt;&lt;/Script&gt;
+    &lt;/&gt;
+  );
+};
+
+export default PreviewLayout;</code>
+            </pre>
+
+            <p class="info-bg">Layout component wraps pages content and contains specific configurations such as common <code>components</code>, <code>css</code>  or <code>scripts</code>.</p>
+          </section>
+
+          <!-- Page File
+          ============================ -->
+          <section id="ravo_code_page">
+            <h3><i class="fas fa-file-code mr-2"></i> Page</h3>
+            <p><code>[root_folder]/src/pages/[page_folder]/[page].jsx</code> React component that contains a page code.</p>
+
+            <pre>
+<code class="language-jsx">// ./src/pages/home-main/index.jsx
+//= Import React Hooks
+import { useEffect } from 'react';
+import Head from 'next/head';
+//= Layout
+import MainLightLayout from '../../layouts/main-light';
+//= Components
+import StickyBar from '../../components/Common/StickyBar';
+import FixedSearch from '../../components/Common/FixedSearch';
+import Header from '../../components/Main/Header1';
+import IntroUp from '../../components/Main/IntroUp';
+import IntroOutBox from '../../components/Main/IntroOut';
+import Services from '../../components/Main/Services1';
+import Portfolio from '../../components/Main/Portfolio1';
+import Section from '../../components/Main/Section';
+import Process from '../../components/Main/Process1';
+import Testimonials from '../../components/Main/Testimonials1';
+import Numbers from '../../components/Main/Numbers';
+import Team from '../../components/Main/Team';
+import CallToAction from '../../components/Main/CallAction';
+import Blog from '../../components/Main/Blog1';
+import Footer from "../../components/Footers/MainFooter";
+
+// Page Component
+const HomeMain = () =&gt; {
+  useEffect(() =&gt; {
+    document.body.classList.add('index-main');
+    document.body.classList.remove(...toBeRemovedClasses);
+  }, []);
+
+  return (
+    &lt;&gt;
+      &lt;Head&gt;
+        &lt;title&gt;Ravo - Home Main&lt;/title&gt;
+      &lt;/Head&gt;
+
+      &lt;!-- Usage of page layout --&gt;
+      &lt;MainLightLayout&gt;
+        &lt;!-- Usage of imported components --&gt;
+        &lt;StickyBar /&gt;
+        &lt;FixedSearch /&gt;
+        &lt;Header /&gt;
+        &lt;IntroUp /&gt;
+        &lt;IntroOutBox /&gt;
+        &lt;Services /&gt;
+        &lt;Portfolio /&gt;
+        &lt;Section /&gt;
+        &lt;Process /&gt;
+        &lt;Testimonials /&gt;
+        &lt;Numbers /&gt;
+        &lt;Team /&gt;
+        &lt;CallToAction /&gt;
+        &lt;Blog /&gt;
+        &lt;Footer footerClass="main-footer bg-dark-blue" /&gt;
+      &lt;/MainLightLayout&gt;
+    &lt;/&gt;
+  )
+}
+
+export default HomeMain;</code>
+            </pre>
+          </section>
+
+          <!-- Component File
+          ============================ -->
+          <section id="ravo_code_component">
+            <h3><i class="fas fa-file-code mr-2"></i> Component</h3>
+            <p><code>[root_folder]/src/components/[component_folder]/index.jsx</code> React component contains part of a page code.</p>
+
+            <pre>
+<code class="language-jsx">// ./src/components/Common/StickyBar/index.jsx
+import { useEffect } from 'react';
+import Link from 'next/link';
+
+const StickyBar = () =&gt; {
+  useEffect(() =&gt; {
+    const sticky_bar = document.querySelector('.sticky-bar');
+    if (window.pageYOffset &gt; 600) sticky_bar.classList.add("active");
+    else sticky_bar.classList.remove("active");
+
+    window.addEventListener("scroll", () =&gt; {
+      if (window.pageYOffset &gt; 600) sticky_bar.classList.add("active");
+      else sticky_bar.classList.remove("active");
+    });
+  }, []);
+
+  return (
+    &lt;div className="sticky-bar"&gt;
+      &lt;div className="left-bar"&gt;
+        &lt;Link href="/contact-creative"&gt;
+          &lt;a className="contact-butn"&gt;
+            &lt;span&gt;Contact Us&lt;/span&gt;
+            &lt;span className="icon ml-10"&gt;
+              &lt;i&gt; className="far fa-comment"&gt;&lt;/i&gt;
+            &lt;/span&gt;
+          &lt;/a&gt;
+        &lt;/Link&gt;
+      &lt;/div&gt;
+      &lt;div className="right-bar"&gt;
+        &lt;div className="social-text fz-13"&gt;
+          &lt;span&gt; className="text"&gt;Follow Us&lt;/span&gt;
+          &lt;a&gt; href="#0"&gt;Fa.&lt;/a&gt;
+          &lt;i&gt;/&lt;/i&gt;
+          &lt;a&gt; href="#0"&gt;Tw.&lt;/a&gt;
+          &lt;i&gt;/&lt;/i&gt;
+          &lt;a&gt; href="#0"&gt;Be.&lt;/a&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  )
+}
+
+export default StickyBar 
+</code>
+            </pre>
+          </section>
+
+          <!-- Data File
+          ============================ -->
+          <section id="ravo_code_data">
+            <h3><i class="fas fa-file-code mr-2"></i> Data</h3>
+            <p><code>[root_folder]/src/data/[data_folder]/[data_file].json</code> JSON file stores component data.</p>
+
+            <pre>
+<code class="language-json">// ./src/data/landing-preview/demos.json
+[
+  {
+    "id": 1,
+    "link": "/home-main",
+    "image": "landing-preview/img/demos/1.jpg",
+    "type": "Creative",
+    "title": "Main Demo"
+  },
+  {
+    "id": 2,
+    "link": "/home-landing-3",
+    "image": "landing-preview/img/demos/2.jpg",
+    "type": "Creative",
+    "title": "Modern Agency"
+  },
+  {
+    "id": 3,
+    "link": "/home-mobile-app",
+    "image": "landing-preview/img/demos/3.jpg",
+    "type": "Creative",
+    "title": "Mobile App"
+  }
+  .
+  .
+  .
+]
+</code>
+            </pre>
+          </section>
+
+          <hr class="divider">
+
+
+          <!-- Source & Credits
+		      ============================ -->
+          <section id="ravo_source_credits">
+            <h2 class="title">Source & Credits</h2>
+            <h4><i class="fas fa-image mr-2"></i> Images:</h4>
+            <ul>
+              <li>Pexels - <a target="_blank" href="https://pexels.com/">https://pexels.com</a></li>
+              <li>Unsplash - <a target="_blank" href="https://unsplash.com/">https://unsplash.com</a></li>
+            </ul>
+            <p class="info-bg note">Images are only for demo purpose and not included with the download bundle.</p>
+            <h4><i class="fas fa-font mr-2"></i> Fonts:</h4>
+            <ul>
+              <li>Poppins - <a target="_blank" href="https://fonts.google.com/specimen/Poppins?query=pop">https://fonts.google.com/specimen/Poppins?query=pop</a></li>
+              <li>Noto Sans - <a target="_blank" href="https://fonts.google.com/noto/specimen/Noto+Sans">https://fonts.google.com/noto/specimen/Noto+Sans</a></li>
+            </ul>
+            <h4><i class="fas fa-code mr-2"></i> Scripts:</h4>
+            <ul>
+              <li>Next.js - <a target="_blank" href="https://nextjs.org">https://nextjs.org</a></li>
+              <li>React.js - <a target="_blank" href="https://reactjs.org">https://reactjs.org</a></li>
+              <li>Bootstrap 5 - <a target="_blank" href="http://getbootstrap.com/">http://getbootstrap.com</a></li>
+              <li>Swiper Carousel - <a target="_blank" href="https://swiperjs.com/">https://swiperjs.com</a></li>
+              <li>react-scroll - <a target="_blank" href="https://www.npmjs.com/package/react-scroll">https://www.npmjs.com/package/react-scroll</a></li>
+              <li>react-progress-bar - <a target="_blank" href="https://www.npmjs.com/package/@ramonak/react-progress-bar">https://www.npmjs.com/package/@ramonak/react-progress-bar</a></li>
+              <li>react-parallax-tilt - <a target="_blank" href="https://www.npmjs.com/package/react-parallax-tilt">https://www.npmjs.com/package/react-parallax-tilt</a></li>
+              <li>react-fade-in - <a target="_blank" href="https://www.npmjs.com/package/react-fade-in">https://www.npmjs.com/package/react-fade-in</a></li>
+              <li>react-slidedown - <a target="_blank" href="https://www.npmjs.com/package/react-slidedown">https://www.npmjs.com/package/react-slidedown</a></li>
+              <li>react-tsparticles - <a target="_blank" href="https://www.npmjs.com/package/react-tsparticles">https://www.npmjs.com/package/react-tsparticles</a></li>
+              <li>react-modal-video - <a target="_blank" href="https://appleple.github.io/react-modal-video">https://appleple.github.io/react-modal-video</a></li>
+            </ul>
+          </section>
+
+          <hr class="divider">
+
+          <!-- Thanks
+          ============================ -->
+          <section id="ravo_thanks">
+            <img src="./assets/images/logo-dark.png" alt="ravo-logo" class="mb-3" width="128">
+            <h2>Thank you for purchased Ravo template</h2>
+            <p>We truly appreciate and really hope that you'll enjoy our template!</a></p>
+            <p>If you like our template, plase rate us 5 star !</p>
+          </section>
+
+        </div>
+      </div>
+
+    </div>
+    <!-- Content end -->
+
+    <!-- Footer
+    ============================ -->
+    <footer id="footer" class="section bg-dark footer-text-light">
+      <div class="container">
+        <img src="./assets/images/logo-light.png" alt="ravo-logo" class="mb-4 d-block mx-auto">
+        <ul class="social-icons social-icons-lg social-icons-muted justify-content-center mb-3">
+          <li><a data-toggle="tooltip" href="https://twitter.com/ThemesCamp" target="_blank" title="" data-original-title="Twitter"><i class="fab fa-twitter"></i></a></li>
+          <li><a data-toggle="tooltip" href="https://www.linkedin.com/company/smart-innovates/" target="_blank" title="" data-original-title="Linkedin"><i class="fab fa-linkedin-in"></i></a></li>
+          <li><a data-toggle="tooltip" href="https://www.behance.net/themestudi6128" target="_blank" title="" data-original-title="Behance"><i class="fab fa-behance"></i></a></li>
+        </ul>
+        <p class="text-center">Copyright &copy; 2022
+          <a href="https://themeforest.net/item/ravo-multipurpose-html5-template/37947640" target="_blank" class="footer-link">Ravo</a>.
+          All Rights Reserved.
+        </p>
+      </div>
+    </footer>
+    <!-- Footer end -->
+
+  </div>
+  <!-- Document Wrapper end -->
+
+  <!-- Back To Top -->
+  <a id="back-to-top" data-toggle="tooltip" title="Back to Top" href="javascript:void(0)"><i
+      class="fa fa-chevron-up"></i></a>
+
+  <!-- JavaScript
+============================ -->
+  <!-- jQuery -->
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <!-- Bootstrap v4 -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <!-- Highlight JS -->
+  <script src="assets/vendor/highlight.js/highlight.min.js"></script>
+  <!-- Easing -->
+  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <!-- Magnific Popup -->
+  <script src="assets/vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+  <!-- Custom Script -->
+  <script src="assets/js/theme.js"></script>
+</body>
+
+</html>
